@@ -1,1 +1,0 @@
-putin_DAUN
