@@ -1,11 +1,14 @@
 from carreter import Character
+import math
 
-player1 = Character(name='vladick' , damage=10)
-player2 = Character(name='sanya' , damage=8)
-print(player1)
-print(player2)
-player1.attack(player2)
-player2.attack(player1)
+print('введите имя')
+name=input()
+print('введите год рождения')
+year=input()
+old=(2022 - year)
+print('введите группу')
+group=input()
+print('введите оценку')
+mark=input()
+player1 = Character(name=name, damage=10)
 
-print(player1)
-print(player2)
